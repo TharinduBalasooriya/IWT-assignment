@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Prody</title>
+	<link rel="stylesheet" type="text/css" href="styles/addProduct.css">
+    <script src="js/addProduct.js"></script>
+</head>
+<body>
+
+	 <nav>
+		<ul>
+				<li><a href="ProductList.html">Prodct List</a></li>
+				<li><a href="addProduct.html">Add Product</a></li>
+				<li><a href="#">Statistics</a></li>
+				<li><a href="#">User Reivews</a></li>
+				<li><a href="#">User Accounts</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Log Out</a></li>
+
+		</ul>	
+    </nav>    
+
+    <form class="formDesign" method="post" action="product.php" onsubmit="return checkpassword()">
+    	<div class="productName">
+	    	<p style="color:#ed0c0c;display: inline-block;">*</p><h3>Product Name </h3>    	<input type="text" name="productName" placeholder="Product Name" required>
+	    </div>	
+	   
+	    <br/><br/>
+	    <!-- product description-->
+	    <div class="productDescription">
+	    	<h3>Product Description </h3>  
+	    	<textarea rows="14" cols="80"></textarea>
+	    </div>
+	    <!-- category-->
+	    <div class="productCat">
+	    	<h3>Product Category </h3>    	
+	    	<select>
+				  <option value="music">Music</option>
+				  <option value="video">Videos</option>
+				
+			</select>
+	    </div> <br/>	
+	    
+	    <!-- price -->
+	    <div class="price">
+	    	<p style="color:#ed0c0c;display: inline-block;">*</p>
+	    	<h3>Price</h3> 
+	    	<input type="text" name="productPrice" placeholder="0.00$" required>
+
+	 	  </div> <br/>
+	 	  <!-- rate-->
+	 	 <div class="rating">
+	    	<h3>Rating</h3> 
+	    	<input type="number" name="productRate" min = "0" max = "10"placeholder="7.2">
+
+	 	  </div><br/> 
+	 	  
+	 	  <!-- product submit date-->
+	 	  <div class="date">
+	 	  	<p style="color:#ed0c0c;display: inline-block;">*</p>
+	    	<h3>Submission Date</h3> 
+	    	<input type="date" name="productDate" required>
+
+	 	  </div><br/>
+	 	  <!-- admin ID -->
+	 	   <div class="admID">
+	 	  	<p style="color:#ed0c0c;display: inline-block;">*</p>
+	    	<h3>Administrator ID</h3> 
+	    	<input type="text" name="adminID" placeholder = "AD123"pattern = "[A-Z]{1,}+[0-9]{1,}"required>
+
+	 	  </div><br/>
+	 	  
+
+	 	  <!-- admin pw1 -->
+	 	   <div class="admpw1">
+	 	  	<p style="color:#ed0c0c;display: inline-block;">*</p>
+	    	<h3>Password</h3> 
+	    	<input type="Password" id="pw1" pattern = "[0-9a-zA-Z@#!$%^&*._.-]{4,}" placeholder = "****"required>
+
+	 	  </div><br/>
+	 	  <div class="admpw2">
+	 	  	<p style="color:#ed0c0c;display: inline-block;">*</p>
+	    	<h3>Re-enter the Password</h3> 
+	    	<input type="Password" id="pw2" pattern = "[0-9a-zA-Z@#!$%^&*._.-]{4,}" placeholder = "****"required>
+
+	 	  </div><br/><br/><br/>
+
+	 	  <!-- product submisson-->
+
+	 	  <div class="sbmt">
+	 	  	<input type="submit" name="productSubmit" value="SUBMIT THE PRODUCT">
+	 	  
+	 	  </div>
+
+	 	
+	 </form>  
+	</body>
+</html>
