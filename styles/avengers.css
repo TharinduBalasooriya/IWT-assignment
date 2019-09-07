@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*Design of the body*/
+body {
+	background-image: url("../images/wallDrk.jpg");
+	
+}
+/*Start of Navigation bar design*/
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0 ;
+	overflow: hidden;
+	background-color:  #1f1f1f;
+
+}
+li {
+	float: left;
+
+}
+li a {
+	display: block; 
+	color: white;
+	text-align: center;
+    padding: 20px 41px;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif; /*font of the navigate bar*/
+
+}
+li a:hover {
+	background-color: black;
+	color: chocolate;
+	font-weight:bold;
+}
+/* End of navigation bar design*/
+
+/* head background cover*/
+#cover {
+  background-color: black;
+  background-size: cover;
+  height: 400px;
+ position: relative;
+}
+/*design of logo*/
+
+#logo
+{
+    position: absolute;
+    
+    height: 150px;
+    width: 155px;
+    bottom: 2px;
+    left:0px;
+    border: 2px solid white;
+}
+
+/*main dev desgin*/
+.mainDiv
+{
+
+    position: relative;
+}
+/* design of the image of movie */
+#mainDivImg
+{
+    margin-top: 80px;
+    border: 3px solid white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+}
+/*end */
+/*design of the movie details */
+
+/*design of movie detail container*/
+#mvDetails
+{
+    background-color: rgb(15, 15, 15,0.8);
+       color: aliceblue;
+    font-family: cursive;
+    border: 2px solid white;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 550px;
+    margin-top: -500px;
+    padding-bottom: 20px;
+}
+/*end :design of the container*/
+/* details of movie */
+#detail1
+{
+    padding-left:80px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+
+    
+}
+/* ratings of the movie */
+.rating
+{
+    padding-left:  80px;
+    position: relative;
+   
+}
+.rating img
+{
+    
+    display: inline-block;
+    margin-top:-10px;
+}
+
+/*end of movie details design*/
+/* design of  simillar movies container*/
+.simMv
+{
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 1200px;
+    
+}
+.simMv img
+{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: 3px solid brown;
+}
+.simMv h3{
+    margin-left:60px;
+}
+/*end */
+
+/* design of watch trailer  and buy now buttons */
+.btn1
+{
+    margin-left: 550px;
+    position: absolute;
+    margin-top:-112px;
+   
+   
+}
+.btn1 a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    color: snow;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+     border: 3px solid green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-right: 10px;
+}
+.btn1 a:hover
+{
+    background-color: rgb(64, 64, 64,0.3);
+    border-color:firebrick;
+}
+/*end */
+/*article design*/
+article{
+    
+    margin-right: 120px;
+    margin-left: 120px;
+}
+article p{
+    
+    font-family:fantasy;
+    color: antiquewhite;
+    font-size: 23px;
+}
+/* main class for footer tag*/
+.fid
+{
+	background-color:  rgb(76, 0, 128,0.3);
+	overflow: hidden;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	
+}
+/*design for headers in the footer */
+#fHeader
+{
+	letter-spacing: 2px;
+	color:#b3b0ab;
+}
+/* footer div 1 design */
+#div1{
+
+	float: left;
+	margin-right: 475px;
+	margin-left: 20px;
+	
+}
+/* footer div 2 design */
+#div2{
+	float: left;
+}
+/* footer div 3 design */
+#div3
+{
+	float: right;
+	margin-right: 40px;
+}
+/* footer links design */
+a.ftrLinks
+{
+	text-decoration: none;
+	color: #b3b0ab;
+	font-family: verdana;
+
+
+}
+a.ftrLinks:hover
+{
+	color: yellow;
+}
+/* end of footer design */

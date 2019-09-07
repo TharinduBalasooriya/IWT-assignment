@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*Design of the body*/
+body {
+	background-image: url("../images/43.jpg");
+	
+}
+/*Start of Navigation bar design*/
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0 ;
+	overflow: hidden;
+	background-color:  #1f1f1f;
+
+}
+li {
+	float: left;
+
+}
+li a {
+	display: block; 
+	color: white;
+	text-align: center;
+    padding: 20px 41px;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif; /*font of the navigate bar*/
+
+}
+li a:hover {
+	background-color: black;
+	color: chocolate;
+	font-weight:bold;
+}
+/* End of navigation bar design*/
+
+/* head background cover*/
+#cover {
+  background-color: black;
+  background-size: cover;
+  height: 400px;
+ position: relative;
+}
+/*design of logo*/
+
+#logo
+{
+    position: absolute;
+    
+    height: 150px;
+    width: 155px;
+    bottom: 2px;
+     left:0px;
+    border: 2px solid white;
+}
+/*Video shop slide show*/
+.vCover {
+
+	border:3px solid orange;
+	height: 633px;
+	width: 436px;
+	margin-top: 200px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mySlides {display:none;}/*My slide class1*/
+.mySlides2 {display:none;}/*My slide class1*/
+
+/*design of buy now buttons*/
+a.button{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 41%;
+  margin-top: 30px;
+  border: solid gray 3px;
+  margin-bottom: 30px;
+  font-family: "Arial Black", "Arial Bold";
+  font-size: 20px;
+  letter-spacing: 1px;
+
+
+}
+
+a.button:hover, a.button:active {
+  background-color: red;}
+/*end of the design button*/
+
+
+/* Design of the footer part*/
+/* main class for footer tag*/
+.fid
+{
+	background-color:  rgb(76, 0, 128,0.3);
+	overflow: hidden;
+	padding-bottom: 30px;
+	margin-top: 50px;
+	
+}
+/*design for headers in the footer */
+#fHeader
+{
+	letter-spacing: 2px;
+	color:#b3b0ab;
+}
+/* footer div 1 design */
+#div1{
+
+	float: left;
+	margin-right: 475px;
+	margin-left: 20px;
+	
+}
+/* footer div 2 design */
+#div2{
+	float: left;
+}
+/* footer div 3 design */
+#div3
+{
+	float: right;
+	margin-right: 40px;
+}
+/* footer links design */
+a.ftrLinks
+{
+	text-decoration: none;
+	color: #b3b0ab;
+	font-family: verdana;
+
+
+}
+a.ftrLinks:hover
+{
+	color: yellow;
+}
+/* end of footer design */

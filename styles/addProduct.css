@@ -1,0 +1,205 @@
+/*Start of Navigation bar design*/
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0 ;
+	overflow: hidden;
+	background-color:  #1f1f1f;
+
+}
+li {
+	float: left;
+
+}
+li a {
+	display: block; 
+	color: white;
+	text-align: center;
+    padding: 20px 50px;
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif; /*font of the navigate bar*/
+
+}
+li a:hover {
+	background-color: black;
+	color: chocolate;
+	font-weight:bold;
+}
+/* End of navigation bar design*/
+/*Design of the body*/
+body {
+	background-image: url("../images/b12.jpg");
+	
+}
+.formDesign
+{
+	margin: 30px 30px;
+	background-color: rgb(255, 255, 255,0.7);
+	border: 2px solid black;
+	position: relative;
+    padding-left: 100px;
+    
+}
+/*all inputs*/
+input
+{
+	font-family: Georgia, serif;
+}
+/*product name design*/
+.productName{
+    margin-top: 70px;
+}
+.productName  h3{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.productName input{
+
+	width: 50%;
+	height: 30px;
+	border: 1.5px solid darkgray;
+    margin-left: 63px;
+}
+/* product data description*/
+.productDescription
+{
+	margin-bottom: 250px;
+	position: relative;
+}
+
+.productDescription h3
+{
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.productDescription textarea
+{
+	position: absolute;
+	left: 250px;
+	top: 0px;
+	border: 1.5px solid darkgray;
+}
+/*category*/
+.productCat  h3{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.productCat  select{
+
+	width: 50%;
+	height: 30px;
+	border: 1.5px solid darkgray;
+    margin-left: 40px;
+}
+/*price design*/
+.price h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.price input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: 130px;
+	border: 1.5px solid darkgray;
+}
+
+/*Rating design*/
+.rating h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.rating input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: 130px;
+	border: 1.5px solid darkgray;
+}
+/*date design*/
+.date h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.date input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: 40px;
+	border: 1.5px solid darkgray;
+
+}
+/*admin id design*/
+.admID h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.admID input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: 35px;
+	border: 1.5px solid darkgray;
+
+}
+/*admin pw 1 design*/
+.admpw1 h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.admpw1 input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: 100px;
+	border: 1.5px solid darkgray;
+
+}
+/*admin pw2 design*/
+
+.admpw2 h3
+{	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+.admpw2 input{
+
+	width: 50%;
+	height: 30px;
+	margin-left: -3px;
+	border: 1.5px solid darkgray;
+
+}
+
+/*submission design*/
+.sbmt{
+
+	display: inline-block;
+	margin-left: 500px;
+    margin-top: 40px;
+	margin-bottom: 70px;
+
+}
+.sbmt input
+{
+	padding: 30px;
+}
